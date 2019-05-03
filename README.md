@@ -171,15 +171,16 @@ The following needs to be defined for code:
 All applications will run inside containers on <cluster>.
 Data storage solutions will be provisioned on <storage> 
 
+
 -------------------------------------------------------------------------------
 ## Technology stack
-Please see [Pipeline](./PIPELINE.md)
+Please see [Technology](./TECHNOLOGY.md) information
 
 
 -------------------------------------------------------------------------------
 ## Data
 
-### Storage 
+### Storage
 
 ### Backup & Recovery
 
