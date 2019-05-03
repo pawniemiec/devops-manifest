@@ -38,6 +38,6 @@ Logging <LEVEL> is being read from Environment Variable LOG_LEVEL upon deploymen
 ## Location
 All logging from docker images goes to `STDOUT` (both `STDERR` and `STDOUT`)
 
-Kubernetes cluster grabs all logs sent to `STDOUT` and posts them 
-to [ELK stack](https://<ELK_stack_URL>/app/kibana)
+Container cluster grabs all logs sent to `STDOUT` and posts them
+to [Logging System](https://<logging_system_URL>/)
 
