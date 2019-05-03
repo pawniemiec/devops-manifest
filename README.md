@@ -201,15 +201,15 @@ Testing strategy can be found [here](./TESTING.md)
 ## Operations
 
 ### Glossary
-Please see [GLOSSARY.md](./GLOSSARY.md)
+Please see [GLOSSARY](./GLOSSARY.md)
 
 
 ### Procedures
 List of procedures can be found [here](./PROCEDURES.md)
 
 ### Monitoring
-Please see [MONITORING.md](./MONITORING_AND_ALERTING.md)
+Please see [MONITORING](./MONITORING_AND_ALERTING.md)
 
 ### Logging
-Please see [LOGGING.md](./LOGGING.md)
+Please see [LOGGING](./LOGGING.md)
 
