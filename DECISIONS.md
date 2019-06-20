@@ -1,8 +1,5 @@
 # Descisions
 
+## Important Decisions Made
 
-## Important Decisions
-
-
-
-## WE_NEED_TO_DECIDE
+## Decisions to be Made

@@ -1,8 +1,10 @@
 # CI/CD Pipeline
 
-
 ## High level overview
-- Upon code Change Request new feature branch is created 
+
+Development process should adopt Github Flow
+
+- Upon code Change Request new feature branch is created from `master` branch
 - Code is changed, signed with GPG key and pushed to VCS
 - Artifact is built and unit tested automatically
 - Upon successful tests outcome Developer creates Pull Request/Merge Request to `master` branch
@@ -15,25 +17,23 @@
 - Load/Performance tests are performed
 - User Acceptance Testing proceeds
 - Upon successful UAT, changes are scheduled to be deployed in Production (details to be agreed)
-- Production deployment is performed (automatically or 
-
+- Production deployment is performed (automatically or manually, depending on decision made)
 
 ## Local development
-- Developer creates their environment initially from `local-dev-repo` which contains:
 
+- Developer creates their environment initially from `local-dev-repo` which contains:
   - git client
   - local drone client
   - local repository (docker registry docker container at localhost:5000)
   - local kubernetes (virtualbox + minikube)
   - templates (repo, drone & kube)
-
 - Developer creates initial E2E tests for all functions to be created
 - Developer creates unit tests for 100% for their code (ideal world)
 - Developer creates code and tests it manually
 - Developer creates deployment files (if not present) and pushes the code to VCS which triggers automatic pipelne
 
-
 ## Environment variables
+
 The following environment variables will be used across all applications with given values:
 
 - `ENVIRONMENT`

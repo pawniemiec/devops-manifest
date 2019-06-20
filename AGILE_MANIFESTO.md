@@ -6,6 +6,7 @@ We are uncovering better ways of developing
 software by doing it and helping others do it.
 
 Through this work we have come to value:
+
 - **Individuals and interactions** over processes and tools
 - **Working software** over comprehensive documentation
 - **Customer collaboration** over contract negotiation
@@ -13,7 +14,6 @@ Through this work we have come to value:
 
 That is, while there is value in the items on
 the right, we value the items on the left more.
-
 
 ## Principles behind the Agile Manifesto
 
@@ -59,4 +59,4 @@ emerge from self-organizing teams.
 
 - At regular intervals, the team reflects on how
 to become more effective, then tunes and adjusts
-its behavior accordingly. 
+its behavior accordingly.

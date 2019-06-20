@@ -1,4 +1,5 @@
 # Name of the project
+
 > Additional information or tagline
 
 A brief description of your project, what it is used for and how does life get
@@ -58,16 +59,18 @@ And again you'd need to tell what the previous code actually does.
 ## Features
 
 What's all the bells and whistles this project can perform?
-* What's the main functionality
-* You can also do another thing
-* If you get really randy, you can even do this
+
+- What's the main functionality
+- You can also do another thing
+- If you get really randy, you can even do this
 
 ## Configuration
 
 Here you should write what are all of the configurations a user can enter when
 using the project.
 
-#### Argument 1
+### Argument 1
+
 Type: `String`  
 Default: `'default value'`
 
@@ -75,6 +78,7 @@ State what an argument does and how you can use it. If needed, you can provide
 an example below.
 
 Example:
+
 ```bash
 awesome-project "Some other value"  # Prints "You're nailing this readme!"
 ```
@@ -86,13 +90,13 @@ pull requests to us.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the 
-[tags on this repository](https://github.com/UKHomeOffice/<PROJECT>/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the
+[tags on this repository](https://github.com/<user>/<PROJECT>/tags). 
 
 ## Authors
 
 * **<FIRST LAST>** - *Initial work* - [GitHub](https://github.com/<YOUR_ACCOUNT>)
-* **<FIRST LAST>** - *Initial work* - [GitHub](https://github.com/<YOUR_ACCOUNT>)
+* **<FIRST LAST>** - *Initial work* - [GitLab](https://gitlab.com/<YOUR_ACCOUNT>)
 
 See also the list of [contributors](https://github.com/UKHomeOffice/<PROJECT>/contributors) who 
 participated in this project.

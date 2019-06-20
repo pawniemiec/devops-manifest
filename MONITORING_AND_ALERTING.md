@@ -1,31 +1,21 @@
 # Monitoring and Alerting
 
-
 ## Infrastructure
 
-#### Alerting thresholds
-
-
+### Alerting thresholds
 
 ## Applications/Services
 
-#### Alerting thresholds
-
-
+### Alerting thresholds
 
 ## Storage
 
-#### Alerting thresholds
-
-
+### Alerting thresholds
 
 ## Network
 
-#### Alerting thresholds
-
-
+### Alerting thresholds
 
 ## Security
 
-#### Alerting thresholds
-
+### Alerting thresholds
