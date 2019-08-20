@@ -23,6 +23,33 @@ Please familiarise yourself with these links:
 - [GitLab sign commits](https://boats.gitlab.io/blog/post/signing-commits-without-gpg/)
 - [GitHub sign commits](https://help.github.com/articles/signing-commits/)
 
+### Generating GPG key
+
+Please run:
+
+```sh
+gpg --default-new-key-algo rsa4096 --gen-key
+```
+
+Provide the following information:
+
+- Real name: FIRST_NAME LAST_NAME
+- E-mail address: FIRST_NAME.LAST_NAME@digital.homeoffice.gov.uk
+- Change (N)ame, (E)mail, or (O)kay/(Q)uit? O
+- GPG Key pair Password: <your secret password>
+
+## Signing git commits
+
+Once you have GPG key pair created by using your digital email, make sure up have configured your git client correctly:
+
+```sh
+git config --global user.name <FIRST_NAME LAST_NAME>
+git config --global user.email <FIRST_NAME.LAST_NAME@digital.homeoffice.gov.uk>
+git config --global commit.gpgsign true
+git config --global gpg.program gpg2
+git config --global user.signingkey $(gpg2 --list-keys --keyid-format LONG <FIRST_NAME.LAST_NAME@digital.homeoffice.gov.uk> |head -1 |awk '{print $2}' |tail -c 17)
+```
+
 ## Encryption
 
 ### Encryption in transit
